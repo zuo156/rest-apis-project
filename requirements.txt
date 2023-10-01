@@ -1,4 +1,4 @@
-flask==1.1.4
+flask==2.1
 flask-smorest
 python-dotenv
 sqlalchemy
@@ -9,4 +9,4 @@ marshmallow
 flask-migrate
 gunicorn
 psycopg2
-MarkupSafe==1.1.1
+MarkupSafe
