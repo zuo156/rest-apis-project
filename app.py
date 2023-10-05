@@ -10,8 +10,9 @@ from dotenv import load_dotenv
 import redis
 from rq import Queue
 
-from blocklist import BLOCKLIST
 from db import db
+from blocklist import BLOCKLIST
+
 import models
 
 from resources.item import blp as ItemBlueprint
